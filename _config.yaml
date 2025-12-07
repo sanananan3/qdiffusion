@@ -1,0 +1,33 @@
+title: "3D Diffusion Policy"
+description: "Generalizable Visuomotor Policy Learning via Simple 3D Representations"
+
+# GitHub Pages 주소
+url: "https://sanananan3.github.io/qdiffusion"
+# 프로젝트 레포라면 "/레포이름", user.io 레포라면 "" 로 두기
+baseurl: "/qdiffusion"   # 예시: 프로젝트 레포
+# baseurl: ""                     # 예시: yourname.github.io 레포
+
+# Minimal Mistakes 원격 테마 사용
+remote_theme: "mmistakes/minimal-mistakes"
+
+# GitHub Pages에서 허용된 플러그인
+plugins:
+  - jekyll-include-cache
+
+# 기본 설정 (필수까진 아니지만 무난한 값)
+markdown: kramdown
+highlighter: rouge
+timezone: Asia/Seoul
+locale: "en-US"
+
+# 테마 스킨(색감)
+minimal_mistakes_skin: "air"   # 마음에 안 들면 "default", "mint" 등으로 바꾸면 됨
+
+# 기본 레이아웃 설정
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false

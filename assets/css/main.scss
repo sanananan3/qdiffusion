@@ -1,0 +1,33 @@
+---
+---
+
+@import "minimal-mistakes/skins/air";  // 위에서 고른 스킨 이름
+@import "minimal-mistakes";
+
+/* ================ 커스텀 스타일 ================ */
+
+/* 팀 사진을 동그랗게 */
+.feature__item img {
+  border-radius: 50%;
+}
+
+/* Real-world video grid */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.video-item video,
+.video-item img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.video-caption {
+  text-align: center;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
